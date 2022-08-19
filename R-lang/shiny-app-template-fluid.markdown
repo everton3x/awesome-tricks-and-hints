@@ -1,6 +1,8 @@
 # Template de app Shine com layout fluído
 
 ```r
+
+# Execute library(), source() e outros códigos que devem ser carregados apenas uma vez
 library(shiny)
 
 # Define UI
@@ -47,7 +49,13 @@ ui <- fluidPage(
 )
 
 # Define aserver logic
-server <- function(input, output) {}
+server <- function(input, output) {
+  # Execute código que deva ser executado para cada novo usuário acessando
+  
+  output$* <- render*({
+    # Código executado a cada atualização
+  })
+}
 
 # Run app
 shinyApp(
