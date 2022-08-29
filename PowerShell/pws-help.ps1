@@ -20,3 +20,21 @@ help Get-Command -Full | Out-GridView
 # Busca coringa
 Help -Name Move-*
 Help *-process
+
+# Lista todos os comandos
+Get-Command
+
+# Lista os comandos que contém "command" (busca pelo substantivo)
+Get-Command -Noun command
+
+# Busca pelo nome
+Get-Command -Noun *command*
+
+# Aceita coringas
+Get-Command -Noun *command*
+
+# Descobre o alias (também aceita coringas)
+Get-Command -Name dir
+
+# Atualizando a ajuda
+Update-Help
