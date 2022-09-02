@@ -1,0 +1,16 @@
+Operador	    Definição
+-eq	          Igual a
+-ne	          É diferente de
+-gt	          Maior que
+-ge	          Maior que ou igual a
+-lt	          Menor que
+-le	          Menor que ou igual a
+-Like	        Corresponde à expressão usando o caractere curinga *
+-NotLike	    Não corresponde à expressão usando o caractere curinga *
+-Match	      Corresponde à expressão regular especificada
+-NotMatch	    Não corresponde à expressão regular especificada
+-Contains	    Determina se uma coleção contém um valor especificado
+-NotContains	Determina se uma coleção não contém um valor específico
+-In	          Determina se um valor especificado está em uma coleção
+-NotIn	      Determina se um valor especificado não está em uma coleção
+-Replace	    Substitui o valor especificado
