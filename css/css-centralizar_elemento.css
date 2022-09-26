@@ -1,0 +1,14 @@
+position: relative; 
+top: 50%; 
+transform: translateY(-50%);
+# Suporte: IE9+
+# Não exige altura fixa (height)
+
+position: absolute; 
+top: 0; bottom: 0; 
+left: 0; right: 0; 
+margin: auto;
+# Exige altura fixa (height)
+
+
+# https://qr.ae/pviTPC
